@@ -1,7 +1,7 @@
-/*! 
+/*!
  * Primitive UI | MIT License
  *
- * A minimalist front-end design toolkit built with Sass for developing 
+ * A minimalist front-end design toolkit built with Sass for developing
  * responsive, browser-consistent web apps.
  *
  * Author: Tania Rascia <hello@taniarascia.com>
@@ -1019,6 +1019,22 @@ caption {
     width: 100%;
   }
 }
+
+.borderbox {
+  border: 1px solid #dedede;
+  padding: 1%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.borderbox hr {
+  margin: 0 calc(-1% - 1px); /* Counteract the padding and border */
+  width: calc(100% + 2% + 2px); /* Extend width to compensate for padding and border */
+  border: none; /* Remove the default border */
+  height: 1px; /* Optional: Set the height of the hr */
+  background-color: #dedede; /* Optional: Set the color of the hr */
+}
+
 
 /*
  * Navigation
