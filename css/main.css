@@ -1035,6 +1035,13 @@ caption {
   background-color: #dedede; /* Optional: Set the color of the hr */
 }
 
+img.emoji {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin: 0 0.25rem;
+}
+
 
 /*
  * Navigation
